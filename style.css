@@ -1,0 +1,94 @@
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for limiting width and centering content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 40px;
+    background-color: #3498db; /* Flat blue color */
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Navigation styles */
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #2980b9; /* Darker blue when hovered */
+}
+
+/* Section styles with unique background colors */
+section {
+    padding: 40px;
+    background-color: white; /* Flat white background by default */
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    border-radius: 5px; /* Soft rounded edges */
+}
+
+/* Specific background colors for sections */
+#home {
+    background-color: #1abc9c; /* Flat teal background for home section */
+}
+
+#about {
+    background-color: #e74c3c; /* Flat red background for about section */
+}
+
+#projects {
+    background-color: #f39c12; /* Flat orange background for projects section */
+}
+
+#contact {
+    background-color: #9b59b6; /* Flat purple background for contact section */
+}
+
+/* Typography for sections */
+h2 {
+    font-size: 2.2em;
+    color: white; /* Make header text white for contrast */
+}
+
+p {
+    font-size: 1.1em;
+    color: white; /* Make paragraph text white for contrast */
+}
+
+/* Social links styling */
+.social-links a {
+    display: inline-block;
+    margin: 10px;
+    color: #3498db;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #2980b9;
+}
